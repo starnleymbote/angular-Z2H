@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hotel Management App';
+  mainPageMessage: string = 'This is me your parent speaking. Listen to me guys';
 }
