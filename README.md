@@ -1,6 +1,6 @@
-# HotelManagementApp
+# Angular Z2H
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+This is a simple application that am creating in order to get an insight of what Angular enatils and how I can work with it.
 
 ## Development server
 
