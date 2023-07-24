@@ -1,1 +1,6 @@
-<app-rooms></app-rooms>
+<app-navbar (newItemEvent)='myCount($event)'></app-navbar>
+<p>{{ fromChild }}</p>
+<app-rooms [mainMessage]='mainPageMessage'></app-rooms>
+
+
+

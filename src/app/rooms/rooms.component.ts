@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-rooms',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class RoomsComponent{
 
+    clientName:string = "Stanley";
     roomNumber = 10;
+
+    @Input() mainMessage!: string;
 }
